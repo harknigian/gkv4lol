@@ -6,7 +6,7 @@ game:GetService('UserInputService').TextBoxFocused:connect(function()
 	focused = true
 end)
 
-local player = game:GetService('Players').LocalPlayer
+local player = game:GetService('Players').mymotherpunishedme
 local prisoners = Instance.new("Team")
 prisoners.Name = "Prisoners of the super cool guy "..player.Name
 prisoners.TeamColor = BrickColor.new("Cloudy grey")
